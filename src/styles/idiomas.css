@@ -1,0 +1,32 @@
+#idiomas h3 {
+  width: 17rem;
+  transform: translateX(1.5rem);
+}
+#detalle_idioma {
+  background-color: #8c52ff;
+  width: 17rem;
+  transform: translateX(1.5rem);
+  padding: 0.4em;
+  border-radius: 0.2em;
+}
+#progress {
+  height: 35px;
+  width: 100%;
+  background-color: #e6f3fa;
+  margin-bottom: 15px;
+}
+
+#progress-bar {
+  height: 100%;
+  background: #3800a6;
+  display: flex;
+  align-items: center;
+  transition: width 0.25s;
+  border: 0;
+}
+
+#progress-bar-text {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #cce7f5;
+}
